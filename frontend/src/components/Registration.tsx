@@ -225,7 +225,7 @@ export default function RegistrationForm () {
           </AnimatePresence>
         </motion.div>
       </div>
-      <div className='mt-8'>
+      {/* <div className='mt-8'>
         <h3 className='text-xl font-bold mb-4 text-cyber'>
           Registered Participants ({registrations.length})
         </h3>
@@ -252,7 +252,7 @@ export default function RegistrationForm () {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }
