@@ -26,20 +26,16 @@ export default function HeroSection () {
           animate={{ opacity: 1 }}
           className='space-y-4 text-xl text-gray-300'
         >
-          <p>{'🗓️'} April 9, 2025</p>
+          <p>{'🗓️'} June 9, 2025</p>
           <p>
-            {'⏰'}{' '}
-            <time dateTime='2025-04-09T07:30:00+00:00'>
-              9:30 AM - 2:00 PM GMT+2
-            </time>
+            {'⏰ '}
+            9:30 AM - 2:00 PM GMT+2
           </p>
           <p>{'📍'} The Nile Ritz-Carlton, Cairo, Egypt</p>
         </motion.div>
         <div className='mt-8 flex flex-wrap justify-center gap-4 text-gray-400'>
           <span>
-            <div className='text-2xl font-bold'>
-              Organized by:
-            </div>
+            <div className='text-2xl font-bold'>Organized by:</div>
           </span>
           <span>
             <div className='text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-neon to-cyber'>

@@ -1,3 +1,5 @@
+import { useEffect } from 'react'
+
 import HeroSection from './components/Hero'
 import EventIntro from './components/Event'
 import Reasons from './components/Reasons'
@@ -10,6 +12,12 @@ import Footer from './components/Footer'
 import SocialSharing from './components/Share'
 
 export default function App () {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }, [])
   return (
     <div className='min-h-screen bg-galaxy text-white'>
       <HeroSection />
